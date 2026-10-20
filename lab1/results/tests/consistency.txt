@@ -1,0 +1,50 @@
+SynchronizedCollector
+writers = 4
+snapshots = 10000
+sum(buckets) < count = 0
+sum(buckets) > count = 0
+inconsistent = 0.00%
+completed record calls = 196909
+final count = 196909
+final sum(buckets) = 196909
+final count - calls = 0
+Final accounting: PASS
+
+StripedCollector
+writers = 4
+snapshots = 10000
+sum(buckets) < count = 7347
+sum(buckets) > count = 145
+inconsistent = 74.92%
+completed record calls = 80221
+final count = 80221
+final sum(buckets) = 80221
+final count - calls = 0
+Final accounting: PASS
+
+ThreadLocalCollector
+writers = 4
+snapshots = 10000
+sum(buckets) < count = 9998
+sum(buckets) > count = 0
+inconsistent = 99.98%
+completed record calls = 13277463
+final count = 13277463
+final sum(buckets) = 13277463
+final count - calls = 0
+Final accounting: PASS
+
+DoubleBufferedCollector
+writers = 4
+snapshots = 10000
+sum(buckets) < count = 0
+sum(buckets) > count = 0
+inconsistent = 0.00%
+completed record calls = 6619303
+final count = 6619303
+final sum(buckets) = 6619303
+final count - calls = 0
+Final accounting: PASS
+
+
+Process exit code: 0

@@ -1,0 +1,15 @@
+BrokenDoubleBufferedCollector
+writers = 4
+snapshots = 10000
+sum(buckets) < count = 169
+sum(buckets) > count = 9397
+inconsistent = 95.66%
+completed record calls = 2702630
+final count = 2702650
+final sum(buckets) = 2702688
+final count - calls = 20
+Exception in thread "main" java.lang.AssertionError: Final statistics lost or duplicated records
+	at testing.InconsistencyTest.runTest(InconsistencyTest.java:128)
+	at testing.InconsistencyTest.main(InconsistencyTest.java:22)
+
+Process exit code: 1

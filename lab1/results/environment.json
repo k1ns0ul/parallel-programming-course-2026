@@ -1,0 +1,11 @@
+{
+  "cpu": "Apple M5",
+  "logical_cpus": "10",
+  "physical_cpus": "10",
+  "performance_cores": "4",
+  "efficiency_cores": "6",
+  "memory_bytes": "17179869184",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.1\nBuildVersion:\t\t25F80",
+  "architecture": "arm64",
+  "java": "openjdk version \"26.0.1\" 2026-04-21\nOpenJDK Runtime Environment Homebrew (build 26.0.1)\nOpenJDK 64-Bit Server VM Homebrew (build 26.0.1, mixed mode, sharing)"
+}

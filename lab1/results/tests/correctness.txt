@@ -1,0 +1,10 @@
+SingleThreadCollector: PASS
+SynchronizedCollector: PASS
+StripedCollector: PASS
+ThreadLocalCollector: PASS
+DoubleBufferedCollector: PASS
+SynchronizedCollector concurrent readers: PASS
+DoubleBufferedCollector concurrent readers: PASS
+All correctness checks: PASS
+
+Process exit code: 0
